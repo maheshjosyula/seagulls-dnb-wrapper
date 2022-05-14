@@ -11,7 +11,7 @@
 	<groupId>com.hackathon.research</groupId>
 	<artifactId>seagulls-dnb-wrapper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>seagulls-dnb-wrapper</name>
 	<description>Wrapper service to consume DNB APIs</description>
 	<properties>
@@ -43,24 +43,5 @@
 			</plugin>
 		</plugins>
 	</build>
-<!--	<build>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--				<executions>-->
-<!--					<execution>-->
-<!--						<goals>-->
-<!--							<goal>repackage</goal>-->
-<!--						</goals>-->
-<!--						<configuration>-->
-<!--							<mainClass>com.hackathon.research.DnbWrapperApplication</mainClass>-->
-<!--							<outputDirectory>${project.basedir}/docker</outputDirectory>-->
-<!--						</configuration>-->
-<!--					</execution>-->
-<!--				</executions>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
-<!--	</build>-->
 
 </project>
