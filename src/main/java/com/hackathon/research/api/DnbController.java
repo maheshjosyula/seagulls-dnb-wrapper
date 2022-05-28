@@ -20,4 +20,8 @@ public class DnbController {
     public CompanyProfile getCompanyProfile(@PathVariable String dunsNum){
         return dnbService.getOwners(dunsNum);
     }
+    @GetMapping("/api/diversityData/{companyName}")
+    public String getDiversityData(@PathVariable String companyName){
+        return "working";
+    }
 }
